@@ -1,0 +1,15 @@
+{
+    "name" : "vendor-name/project-cms" ,
+    "description" : "CMS framework" ,
+    "license" : "CMS",
+    "type" : "framework" ,
+    "require" : {
+        "php" : "^7",
+        "wixel/gump": "^1.11"
+    },
+    "autoload" :{
+        "psr-4" : {
+            "CMS\\" : "app" 
+        }
+    }
+}
