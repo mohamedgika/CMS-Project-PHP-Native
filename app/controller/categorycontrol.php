@@ -47,7 +47,7 @@ helper::redirect("category/index");
 
 //Category index.php
 public function delete($id){
-  $category = $this->model->DeleteCategory($id);;
+  $category = $this->model->DeleteCategory($id);
   if(empty($category)){
     helper::redirect("category/index");
   }
